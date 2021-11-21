@@ -99,6 +99,13 @@ public class Animal {
 	//overriding toString 
 	@Override
 	public String toString() {
+		if (Animal.getZona()==null) {
+			String string = String.format("Mi nombre es %s, " 
+		            + "tengo una edad de %d, "
+					+ "habito en %s y mi genero es %s",
+					this.nombre,this.edad,this.habitat,this.genero);
+			return string;
+		}
 		String string=String.format("Mi nombre es %s, "
 				+ "tengo una edad de %d, "
 				+ "habito en %s y mi genero es %s, "
@@ -108,7 +115,6 @@ public class Animal {
 		return string;
 		
 	}
-	
-	
+		
 	
 }

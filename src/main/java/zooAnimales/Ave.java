@@ -11,6 +11,7 @@ public class Ave extends Animal{
 	//constructor
 	public Ave() {
 		super();
+		Ave.listado.add(this);
 	}
 	
 	public Ave(String nombre, int edad, String habitat, String genero,String colorPlumas) {
@@ -75,7 +76,7 @@ public class Ave extends Animal{
 		return new Ave(nombre,  edad,  "montanas", genero, "blanco y amarillo");
 		
 	}
-	
+		
 	
 
 }
