@@ -26,7 +26,7 @@ public class Mamifero extends Animal{
 	//
 	
 	//Listado
-	public List<Mamifero> getListado() {
+	public static List<Mamifero> getListado() {
 		return listado;
 	}
 	public static void setListado(List<Mamifero> listado) {
@@ -75,7 +75,7 @@ public class Mamifero extends Animal{
 	}
 	
 	public static Mamifero crearCaballo(String nombre, int edad, String genero) {
-		Mamifero.caballos=Mamifero.leones+1;
+		Mamifero.caballos=Mamifero.caballos+1;
 		return new Mamifero(nombre, edad, "pradera", genero, true, 4);
 		
 	}
