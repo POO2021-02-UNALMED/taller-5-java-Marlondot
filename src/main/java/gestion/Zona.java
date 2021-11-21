@@ -7,6 +7,10 @@ public class Zona {
 	private List<Zoologico> zoo;
 	private static List<Animal> animales;
 	
+	public Zona() {
+		
+	}
+	
 	//constructor
 	public Zona(String nombre, List<Zoologico> zoo) {
 		super();

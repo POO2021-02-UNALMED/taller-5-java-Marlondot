@@ -10,6 +10,10 @@ public class Reptil extends Animal{
 	
 	
 	//constructor
+	public Reptil() {
+		super();
+	}
+	
 	public Reptil(String nombre, int edad, String habitat, String genero, String colorEscamas, int largoCola) {
 		super(nombre, edad, habitat, genero);
 		this.colorEscamas = colorEscamas;

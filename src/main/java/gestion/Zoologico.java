@@ -7,6 +7,10 @@ public class Zoologico {
 	private static List<Zona> zonas;
 	
 	//constructor
+	public Zoologico() {
+		
+	}
+	
 	public Zoologico(String nombre, String ubicacion) {
 		super();
 		this.nombre = nombre;

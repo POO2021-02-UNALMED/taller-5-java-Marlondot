@@ -10,6 +10,10 @@ public class Animal {
 	private static Zona[] zona;
 	
 	//constructor
+	public Animal() {
+		
+	}
+	
 	public Animal(String nombre, int edad, String habitat, String genero) {
 		super();
 		this.nombre = nombre;

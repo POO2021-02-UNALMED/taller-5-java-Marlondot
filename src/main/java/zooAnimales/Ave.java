@@ -8,6 +8,11 @@ public class Ave extends Animal{
 	public static int aguilas;
 	private String colorPlumas;
 	
+	//constructor
+	public Ave() {
+		super();
+	}
+	
 	public Ave(String nombre, int edad, String habitat, String genero,String colorPlumas) {
 		super(nombre, edad, habitat, genero);
 		this.colorPlumas = colorPlumas;
