@@ -5,7 +5,7 @@ import java.util.*;
 public class Zona {
 	private  String nombre;
 	private Zoologico zoo;
-	private static List<Animal> animales = new ArrayList<Animal>();
+	private List<Animal> animales = new ArrayList<Animal>();
 	
 	public Zona() {
 		
@@ -40,11 +40,11 @@ public class Zona {
 	}
 	
 	//animales[]
-	public static List<Animal> getAnimales() {
+	public List<Animal> getAnimales() {
 		return animales;
 	}
-	public static void setAnimales(List<Animal> animales) {
-		Zona.animales = animales;
+	public void setAnimales(List<Animal> animales) {
+		this.animales = animales;
 	}
 	
 	//
@@ -52,13 +52,13 @@ public class Zona {
 	//
 	
 	//agregarAnimales
-	public static void agregarAnimales(Animal animal) {
-		Zona.animales.add(animal);
+	public void agregarAnimales(Animal animal) {
+		this.animales.add(animal);
 	}
 	
 	//cantidadAnimales
-	public static int cantidadAnimales() {
-		return Zona.animales.size();
+	public int cantidadAnimales() {
+		return this.animales.size();
 	}
 	
 	
