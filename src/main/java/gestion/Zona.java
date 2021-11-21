@@ -4,7 +4,7 @@ import java.util.*;
 
 public class Zona {
 	private  String nombre;
-	private List<Zoologico> zoo;
+	private Zoologico zoo;
 	private static List<Animal> animales;
 	
 	public Zona() {
@@ -12,7 +12,7 @@ public class Zona {
 	}
 	
 	//constructor
-	public Zona(String nombre, List<Zoologico> zoo) {
+	public Zona(String nombre, Zoologico zoo) {
 		super();
 		this.nombre = nombre;
 		this.zoo = zoo;
@@ -32,10 +32,10 @@ public class Zona {
 	}
 	
 	//zoo
-	public List<Zoologico> getZoo() {
+	public Zoologico getZoo() {
 		return zoo;
 	}
-	public void setZoo(List<Zoologico> zoo) {
+	public void setZoo(Zoologico zoo) {
 		this.zoo = zoo;
 	}
 	

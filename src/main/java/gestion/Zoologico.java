@@ -38,10 +38,10 @@ public class Zoologico {
 	}
 	
 	//zonas
-	public static List<Zona> getZonas() {
+	public static List<Zona> getZona() {
 		return zonas;
 	}
-	public static void setZonas(List<Zona> zonas) {
+	public static void setZona(List<Zona> zonas) {
 		Zoologico.zonas = zonas;
 	}
 	
