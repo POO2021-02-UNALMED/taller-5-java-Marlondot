@@ -1,10 +1,10 @@
 package gestion;
-import java.util.List;
+import java.util.*;
 
 public class Zoologico {
 	private String nombre;
 	private String ubicacion;
-	private static List<Zona> zonas;
+	private static List<Zona> zonas = new ArrayList<Zona>();
 	
 	//constructor
 	public Zoologico() {

@@ -1,5 +1,6 @@
 package zooAnimales;
 import java.util.*;
+import gestion.*;
 
 public class Anfibio extends Animal{
 	private static List<Anfibio> listado = new ArrayList<Anfibio>();
@@ -83,6 +84,8 @@ public class Anfibio extends Animal{
 		return new Anfibio(nombre, edad, "selva", genero, "negro y amarillo", false);
 		
 	}
+	
+	
 	
 	
 	

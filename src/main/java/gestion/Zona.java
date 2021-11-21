@@ -5,7 +5,7 @@ import java.util.*;
 public class Zona {
 	private  String nombre;
 	private Zoologico zoo;
-	private static List<Animal> animales;
+	private static List<Animal> animales = new ArrayList<Animal>();
 	
 	public Zona() {
 		
